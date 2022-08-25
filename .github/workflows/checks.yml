@@ -1,9 +1,10 @@
+---
 name: checks
 
 on: [push]
 
 jobs:
-  Linting-and-Unit-Test:
+  test-lint:
     - name: Lint and Test
       runs-on: ubuntu-20.04
       steps:
